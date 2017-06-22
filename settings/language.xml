@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+//
+// In order to translate HtmlQ or to customize the texts,
+// just change the text between the opening and the closing
+// tag. The attribute 'id' is the name of the variable
+// and must remain unchanged.
+//
+// You can use HTML-tags, but you have to braces instead
+// of the normal angle brackets, otherwise the import will fail.
+// Example: {b}bold{/b}
+//
+// If your are using German Umlauts and other special
+// characters, make sure, that you save this XML-file
+// as an UTF-8-document. White-space inbetween the
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and
+// line breaks, is preserved.
+//
+// ===================================================
+//
+-->
+
+<language version="1.0" htmlParse="true">
+
+  <!-- misc -->
+  <item id="btnContinue">Verder</item>
+  <item id="btnclose">Sluiten</item>
+  <item id="btnHelp">?</item>
+  <item id="btnAgreement">Mee eens</item>
+  <item id="btnNeutral">Neutraal</item>
+  <item id="btnDisagreement">Mee oneens</item>
+  <item id="btnTransfer">Data opsturen</item>
+  <item id="btnMail">Verzend via email</item>
+  <item id="btnPrint">Print data</item>
+  <item id="btnExit">Exit</item>
+  <item id="selectItem">Selecteer aub...</item>
+
+  <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+  <item id="leaveSiteWarning">Uw antwoorden zullen verloren gaan.</item>
+
+  <!-- HtmlQ only: In-App Back Button -->
+  <item id="backButton">Terug</item>
+  <item id="fillInRequiredFields">Voer alle veprlichte velden in.</item>
+
+  <!-- errors -->
+  <item id="errorHead">Foutmelding!</item>
+  <item id="errorWindowTooSmall">Maximaliseer uw browser om gebruik te maken van deze applicatie.</item>
+
+  <!-- welcome screen (leave blank to skip screen) -->
+  <item id="welcomeHead">Welkom</item>
+  <item id="welcomeText">Welkom bij het onderzoek naar opvattingen over etnische minderheden en/of allochtonen onder bewoners van Amsterdam.</item>
+
+  <!-- user login, only displayed if access is restricted (see config-file) -->
+  <item id="loginHead">User code</item>
+  <item id="loginText">Please enter your user code. Please note, that in this demo any user code will be accepted.{br}{br}{i}Tip: This is an optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="loginFormHeader">User code</item>
+  <item id="loginNoInput">Please insert your user code.</item>
+  <item id="loginInvalidInput">User code invalid</item>
+  <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+  <!-- introduction (leave blank to skip popup) -->
+  <item id="introHead">Introductie</item>
+  <item id="introText">Dit onderzoek is onderdeel van het afstudeerproject van UvA-student Thijs Lindner. Het doel van dit onderzoek is om inzicht te krijgen in hoe sociale kenmerken (zoals leeftijd, afkomst, etc.) samenhangen met opvattingen die mensen kunnen hebben over etnische minderheden en/of allochtonen.{br}{br}U gaat verschillende stellingen over etnische minderheden sorteren. Hoe u dit moet doen wordt uitgelegd gedurende het onderzoek, lees deze uitleg goed door.{br}Sommige stellingen kunnen erg direct of licht aanstootgevend overkomen. Dit is een bewuste strategie om te onderzoeken hoe mensen denken over bepaalde stellingen. Dit onderzoek heeft niet tot doel te beledigen of te discrimineren. Wanneer u opmerkingen of commentaar heeft, dan is er de mogelijkheid deze aan het eind te plaatsen.{br}{br} Er worden verschillende termen gebruikt om groepen mensen aan te duiden. Het gaat om uw interpratie van deze groepen en daarom zullen deze niet verder toegelicht worden.{br}{br}Het onderzoek is volledig anoniem: de door u ingevulde gegevens kunnen niet naar u herleid worden, tenzij u dit zelf expliciet aangeeft.{br}{br}Maximaliseer uw browser om gebruik te maken van deze applicatie.</item>
+
+  <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+  <item id="step1Head">Stap 1 van 5</item>
+  <item id="step1Text">Lees de volgende stellingen nauwkeurig door en verdeel ze over drie stapels: een stapel voor stellingen waar u het mee eens denkt te zijn, een stapel voor stellingen waar u het mee oneens denkt te zijn, en een stapel voor de rest.{br}{br}Om de stellingen te plaatsen kunt u deze slepen, of 1,2 of 3 drukken op uw toetsenbord. Aanpassingen van uw keuzes kunt u in de volgende stap doen. Verkeerd geplaatste stellingen kunnen naar een andere stapel gesleept worden.{br}{br}Als u deze instructie opnieuw wilt lezen, kunt op het vraagteken rechts onderaan het scherm drukken.{br}{br}NB: U hoeft niets te doen met de nummers voor de stellingen.{br}{br}Voor vragen kunt mailen naar M.J.Lindner@uva.nl.</item>
+
+  <!-- step2: sorting (leave blank to skip popup) -->
+  <item id="step2Head">Stap 2 van 5</item>
+  <item id="step2Text">De belangrijkste stap is genomen! Nu gaat u alle stellingen verder sorteren.{br}Neem de stellingen van de "MEE EENS" stapel en lees ze opnieuw. U kunt door de stellingen heen scrollen. Selecteer daarna een stelling waarmee u het meest mee eens bent en plaats deze aan de rechterzijde van het scoreblad onder de "+4".{br}{br}Neem dan de "MEE ONEENS" stapel opnieuw door. Selecteer dan een stelling waar u het meest mee oneens bent en plaats deze aan de linkerblad van het scoreblad onder de "-4".{br}{br}Selecteer vervolgens de stellingen waar u het mee eens/oneens bent en plaats deze onder "+3"/"-3". Doe dit ook voor "+2"/"-2" en "+1"/"-1" en "0", zodat alle stellingen van "MEE EENS" en "MEE ONEENS" verdeeld zijn.{br}{br}Tot slot, neem de "NEUTRAAL" stellingen opnieuw door en plaats deze in de nog openstaande vakjes op het scoreblad.{br}{br}NB: Als u geplaatste stellingen opnieuw wilt lezen, zweef er dan over met de muis.{br}{br}Voor tablet- of telefoongebruikers: zet uw scherm in de landschapmodus voor het best passende beeld.{br}{br}Voor vragen kunt u mailen naar M.J.Lindner@uva.nl.</item>
+
+  <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+  <item id="step3Head">Stap 3 van 5</item>
+  <item id="step3Text">Nu heeft u alle stellingen op het scoreblad geplaatst. Ga nog eenmaal door uw verdeling heen en verplaats stellingen als u dit wilt. Deze stap dient als laatste sorteer mogelijkheid. Als u stellingen verplaatst wisselt deze met stelling waar u het naartoe sleept.</item>
+
+  <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+  <item id="step4Head">Stap 4 van 5</item>
+  <item id="step4Text">Beschrijf (kort) waarom u het meest mee eens bent met de stelling die u onder "+4" hebt geplaatst en doe dit ook voor de stelling die u onder "-4" hebt geplaatst.</item>
+
+  <!-- step5: additional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+  <item id="step5Head">Stap 5 van 5</item>
+  <item id="step5Text">Tot slot, beantwoord de volgende vragen over uw eigen achtergrond.</item>
+
+  <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+  <item id="transferHead">Stuur data op</item>
+  <item id="transferText">U heeft het onderzoek afgerond. Stuur de data door op verdergaan te klikken.</item>
+  <item id="transferFailed">Data uploaden is mislukt. Probeer het opnieuw of mail je resultaten via email (M.J.Lindner@uva.nl).</item>
+    <item id="transferOk">Dank u voor het deelnemen aan dit onderzoek. Hierdoor helpt u mee inzicht te krijgen in het verband tussen tussen de sociale kenmerken van mensen (zoals leeftijd, afkomst, etc.) en hun opvatting over etnische minderheden en/of allochtonen.{br}{br}Hartelijke groet,{br}Thijs Lindner{br}Mail: M.J.Lindner@uva.nl{br}{br}{br}{br}U kunt nu deze pagina afsluiten.</item>
+
+  <!-- send data via mail, only displayed if submitUrl is blank (see config-file) -->
+  <item id="mailHead">Stuur aub uw data op naar M.J.Lindner@uva.nl</item>
+  <item id="mailText">U kunt de data per email doorsturen. In dat geval heeft u een mailclient nodig zoals Outlook of Gmail.</item>
+
+  <!-- e-mail-body -->
+  <item id="mailBody">Thank you for participating in our survey. Please do not modify the following text:</item>
+
+  <!-- print out -->
+  <item id="printoutText">Somebody{br}Some street 100{br}Some city{br}{br}Please send this printout to address mentioned above. Thanks for you help.</item>
+
+</language>
