@@ -64,7 +64,7 @@
           
          <label>Woonwijk</label>
          <note>Geef aan in welke wijk u woont.*</note>
-         <input type="radio" required="true">Indische buurt;Museumkwartier</input>
+         <input type="radio" required="true">Indische buurt;Museumkwartier/Vondelparkbuurt</input>
           
          <label>Woonduur</label>
          <note>Hoe lang woont u in uw huidige buurt? (in jaren)*</note>
